@@ -1,10 +1,11 @@
 backend:
   # Use netlify identity as backend
-  name: git-gateway
+  # name: git-gateway
   branch: master
   ### enable below lines for github integration ###
-  # name: github
-  # repo: surjithctly/neat-starter
+  name: github
+  repo: tempertemper/netlify-cms-test
+
 media_folder: "src/static/img"
 public_folder: "/static/img"
 
